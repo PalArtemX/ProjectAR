@@ -1,18 +1,12 @@
 //
-//  ContentView.swift
+//  ARViewContainer.swift
 //  ProjectAR
 //
 //  Created by Artem Palyutin on 26.10.2021.
 //
 
-import SwiftUI
 import RealityKit
-
-struct ContentView : View {
-    var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
-    }
-}
+import SwiftUI
 
 struct ARViewContainer: UIViewRepresentable {
     
@@ -33,11 +27,3 @@ struct ARViewContainer: UIViewRepresentable {
     func updateUIView(_ uiView: ARView, context: Context) {}
     
 }
-
-#if DEBUG
-struct ContentView_Previews : PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
-#endif

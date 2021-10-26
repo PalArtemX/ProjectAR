@@ -8,19 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1AA20942272868E9001274C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20941272868E9001274C5 /* AppDelegate.swift */; };
-		1AA20944272868EA001274C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20943272868EA001274C5 /* ContentView.swift */; };
+		1AA20944272868EA001274C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20943272868EA001274C5 /* HomeView.swift */; };
 		1AA20946272868EA001274C5 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20945272868EA001274C5 /* Experience.rcproject */; };
 		1AA20948272868EF001274C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA20947272868EF001274C5 /* Assets.xcassets */; };
 		1AA2094B272868EF001274C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA2094A272868EF001274C5 /* Preview Assets.xcassets */; };
+		1AA20956272869F2001274C5 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20955272869F2001274C5 /* ARViewContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AA2093E272868E9001274C5 /* ProjectAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA20941272868E9001274C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1AA20943272868EA001274C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1AA20943272868EA001274C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		1AA20945272868EA001274C5 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		1AA20947272868EF001274C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AA2094A272868EF001274C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1AA20955272869F2001274C5 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				1AA20941272868E9001274C5 /* AppDelegate.swift */,
-				1AA20943272868EA001274C5 /* ContentView.swift */,
-				1AA20945272868EA001274C5 /* Experience.rcproject */,
+				1AA2095127286950001274C5 /* Views */,
+				1AA2095227286969001274C5 /* ViewModel */,
+				1AA2095327286989001274C5 /* Model */,
+				1AA209542728699D001274C5 /* RealityModels */,
+				1AA20955272869F2001274C5 /* ARViewContainer.swift */,
 				1AA20947272868EF001274C5 /* Assets.xcassets */,
 				1AA20949272868EF001274C5 /* Preview Content */,
 			);
@@ -68,6 +73,36 @@
 				1AA2094A272868EF001274C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1AA2095127286950001274C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1AA20943272868EA001274C5 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1AA2095227286969001274C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1AA2095327286989001274C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1AA209542728699D001274C5 /* RealityModels */ = {
+			isa = PBXGroup;
+			children = (
+				1AA20945272868EA001274C5 /* Experience.rcproject */,
+			);
+			path = RealityModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA20944272868EA001274C5 /* ContentView.swift in Sources */,
+				1AA20944272868EA001274C5 /* HomeView.swift in Sources */,
+				1AA20956272869F2001274C5 /* ARViewContainer.swift in Sources */,
 				1AA20942272868E9001274C5 /* AppDelegate.swift in Sources */,
 				1AA20946272868EA001274C5 /* Experience.rcproject in Sources */,
 			);
