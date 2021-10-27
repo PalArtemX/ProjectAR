@@ -20,6 +20,8 @@ struct ARViewContainer: UIViewRepresentable {
         arView.scene.anchors.append(scene1)
        
         
+
+        
         return arView
         
     }
