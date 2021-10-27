@@ -16,12 +16,10 @@ struct ARViewContainer: UIViewRepresentable {
         
         // Load the "Box" scene from the "Scene1" Reality File
         let scene1 = try! Scene1.loadPlayground()
-        let scene2 = try! Scene2.loadBox()
         
         // Add the box anchor to the scene
         arView.scene.anchors.append(scene1)
-        arView.scene.anchors.append(scene2)
-        
+       
         return arView
         
     }
