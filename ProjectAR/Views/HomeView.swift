@@ -9,9 +9,21 @@ import SwiftUI
 import RealityKit
 
 struct HomeView : View {
+    
+    @State var ArModedel = true
+    
     var body: some View {
-        ARViewContainer()
-            .edgesIgnoringSafeArea(.all)
+        VStack {
+            RealityView()
+            Spacer()
+            Button {
+                ArModedel.toggle()
+            } label: {
+                Text("AR")
+            }
+
+        }
+        
     }
 }
 
