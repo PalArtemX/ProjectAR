@@ -16,6 +16,9 @@
 		1AC1208327296B3E00F6374F /* Scene2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1208227296B3E00F6374F /* Scene2.rcproject */; };
 		1AC1208527296F1C00F6374F /* RealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1208427296F1C00F6374F /* RealityView.swift */; };
 		1AC1208727296FFA00F6374F /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1208627296FFA00F6374F /* MainMenuView.swift */; };
+		1AC6F40B2729ADE200B7134B /* Scene2ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6F40A2729ADE200B7134B /* Scene2ARViewContainer.swift */; };
+		1AC6F40D2729B26D00B7134B /* ProjectARViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6F40C2729B26D00B7134B /* ProjectARViewModel.swift */; };
+		1AC6F4112729BD4600B7134B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6F4102729BD4600B7134B /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		1AC1208227296B3E00F6374F /* Scene2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Scene2.rcproject; sourceTree = "<group>"; };
 		1AC1208427296F1C00F6374F /* RealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityView.swift; sourceTree = "<group>"; };
 		1AC1208627296FFA00F6374F /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		1AC6F40A2729ADE200B7134B /* Scene2ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene2ARViewContainer.swift; sourceTree = "<group>"; };
+		1AC6F40C2729B26D00B7134B /* ProjectARViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectARViewModel.swift; sourceTree = "<group>"; };
+		1AC6F4102729BD4600B7134B /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 				1AA2095327286989001274C5 /* Model */,
 				1AA209542728699D001274C5 /* RealityModels */,
 				1AA20955272869F2001274C5 /* ARViewContainer.swift */,
+				1AC6F40A2729ADE200B7134B /* Scene2ARViewContainer.swift */,
 				1AA20947272868EF001274C5 /* Assets.xcassets */,
 				1AA20949272868EF001274C5 /* Preview Content */,
 			);
@@ -87,6 +94,7 @@
 				1AA20943272868EA001274C5 /* HomeView.swift */,
 				1AC1208627296FFA00F6374F /* MainMenuView.swift */,
 				1AC1208427296F1C00F6374F /* RealityView.swift */,
+				1AC6F4102729BD4600B7134B /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +102,7 @@
 		1AA2095227286969001274C5 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1AC6F40C2729B26D00B7134B /* ProjectARViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -186,11 +195,14 @@
 			files = (
 				1AA20944272868EA001274C5 /* HomeView.swift in Sources */,
 				1AC1208727296FFA00F6374F /* MainMenuView.swift in Sources */,
+				1AC6F4112729BD4600B7134B /* BackgroundView.swift in Sources */,
 				1AC1208527296F1C00F6374F /* RealityView.swift in Sources */,
 				1AA20956272869F2001274C5 /* ARViewContainer.swift in Sources */,
 				1AC1208327296B3E00F6374F /* Scene2.rcproject in Sources */,
 				1AA20942272868E9001274C5 /* AppDelegate.swift in Sources */,
 				1AA20946272868EA001274C5 /* Scene1.rcproject in Sources */,
+				1AC6F40B2729ADE200B7134B /* Scene2ARViewContainer.swift in Sources */,
+				1AC6F40D2729B26D00B7134B /* ProjectARViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

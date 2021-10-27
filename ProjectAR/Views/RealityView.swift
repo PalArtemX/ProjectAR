@@ -10,20 +10,30 @@ import SwiftUI
 struct RealityView: View {
     
     @Binding var isShowRealityView: Bool
+    @ObservedObject var vm: ProjectARViewModel
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            ARViewContainer()
-                .edgesIgnoringSafeArea(.all)
-            
-            
+            switch vm.indexAR {
+            case 1:
+                ARViewContainer()
+            case 2:
+                Scene2ARViewContainer()
+            default:
+                BackgroundView()
+                
+            }
             Button {
                 isShowRealityView = false
             } label: {
-                Text("Main Menu")
+                Image(systemName: "filemenu.and.selection")
+                Text("Menu")
             }
-
+            .padding()
+            .buttonStyle(.bordered)
+                    
         }
+        .ignoresSafeArea()
     }
 }
 
@@ -38,6 +48,7 @@ struct RealityView: View {
 
 struct RealityView_Previews: PreviewProvider {
     static var previews: some View {
-        RealityView(isShowRealityView: .constant(false))
+        RealityView(isShowRealityView: .constant(false), vm: ProjectARViewModel())
+.previewInterfaceOrientation(.portrait)
     }
 }

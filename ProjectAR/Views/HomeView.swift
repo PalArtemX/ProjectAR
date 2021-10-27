@@ -11,18 +11,21 @@ import RealityKit
 struct HomeView : View {
     
     @State private var isShowRealityView = false
+    @StateObject var vm = ProjectARViewModel()
     
     var body: some View {
-        
-        if isShowRealityView {
+        ZStack {
+            BackgroundView()
             
-            // RealityView
-            RealityView(isShowRealityView: $isShowRealityView)
-        } else {
-            // MainMenuView
-            MainMenuView(isShowRealityView: $isShowRealityView)
+            if isShowRealityView {
+                
+                // RealityView
+                RealityView(isShowRealityView: $isShowRealityView, vm: vm)
+            } else {
+                // MainMenuView
+                MainMenuView(isShowRealityView: $isShowRealityView, vm: vm)
+            }
         }
-        
     }
 }
 
