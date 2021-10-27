@@ -16,7 +16,7 @@ struct RealityView: View {
         ZStack(alignment: .bottom) {
             switch vm.indexAR {
             case 1:
-                ARViewContainer()
+                Scene1ARView()
             case 2:
                 Scene2ARView()
             default:
