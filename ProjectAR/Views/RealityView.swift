@@ -18,7 +18,7 @@ struct RealityView: View {
             case 1:
                 ARViewContainer()
             case 2:
-                Scene2ARViewContainer()
+                Scene2ARView()
             default:
                 BackgroundView()
                 

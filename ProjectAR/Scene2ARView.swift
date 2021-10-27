@@ -1,5 +1,5 @@
 //
-//  Scene2ARViewContainer.swift
+//  Scene2ARView.swift
 //  ProjectAR
 //
 //  Created by Artem Palyutin on 27.10.2021.
@@ -9,7 +9,7 @@ import RealityKit
 import SwiftUI
 
 
-struct Scene2ARViewContainer: UIViewRepresentable {
+struct Scene2ARView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
         
