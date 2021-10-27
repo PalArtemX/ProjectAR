@@ -10,18 +10,17 @@ import RealityKit
 
 struct HomeView : View {
     
-    @State var ArModedel = true
+    @State private var isShowRealityView = false
     
     var body: some View {
-        VStack {
-            RealityView()
-            Spacer()
-            Button {
-                ArModedel.toggle()
-            } label: {
-                Text("AR")
-            }
-
+        
+        if isShowRealityView {
+            
+            // RealityView
+            RealityView(isShowRealityView: $isShowRealityView)
+        } else {
+            // MainMenuView
+            MainMenuView(isShowRealityView: $isShowRealityView)
         }
         
     }

@@ -15,6 +15,7 @@
 		1AA20956272869F2001274C5 /* ARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20955272869F2001274C5 /* ARViewContainer.swift */; };
 		1AC1208327296B3E00F6374F /* Scene2.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1208227296B3E00F6374F /* Scene2.rcproject */; };
 		1AC1208527296F1C00F6374F /* RealityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1208427296F1C00F6374F /* RealityView.swift */; };
+		1AC1208727296FFA00F6374F /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1208627296FFA00F6374F /* MainMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		1AA20955272869F2001274C5 /* ARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewContainer.swift; sourceTree = "<group>"; };
 		1AC1208227296B3E00F6374F /* Scene2.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Scene2.rcproject; sourceTree = "<group>"; };
 		1AC1208427296F1C00F6374F /* RealityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealityView.swift; sourceTree = "<group>"; };
+		1AC1208627296FFA00F6374F /* MainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				1AA20943272868EA001274C5 /* HomeView.swift */,
+				1AC1208627296FFA00F6374F /* MainMenuView.swift */,
 				1AC1208427296F1C00F6374F /* RealityView.swift */,
 			);
 			path = Views;
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA20944272868EA001274C5 /* HomeView.swift in Sources */,
+				1AC1208727296FFA00F6374F /* MainMenuView.swift in Sources */,
 				1AC1208527296F1C00F6374F /* RealityView.swift in Sources */,
 				1AA20956272869F2001274C5 /* ARViewContainer.swift in Sources */,
 				1AC1208327296B3E00F6374F /* Scene2.rcproject in Sources */,

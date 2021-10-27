@@ -8,9 +8,22 @@
 import SwiftUI
 
 struct RealityView: View {
+    
+    @Binding var isShowRealityView: Bool
+    
     var body: some View {
-        ARViewContainer()
-            .edgesIgnoringSafeArea(.all)
+        ZStack(alignment: .bottom) {
+            ARViewContainer()
+                .edgesIgnoringSafeArea(.all)
+            
+            
+            Button {
+                isShowRealityView = false
+            } label: {
+                Text("Main Menu")
+            }
+
+        }
     }
 }
 
@@ -25,6 +38,6 @@ struct RealityView: View {
 
 struct RealityView_Previews: PreviewProvider {
     static var previews: some View {
-        RealityView()
+        RealityView(isShowRealityView: .constant(false))
     }
 }
