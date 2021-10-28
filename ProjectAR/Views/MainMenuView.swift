@@ -19,7 +19,9 @@ struct MainMenuView: View {
             Spacer()
             
             ScrollView {
-                
+                VStack {
+                    
+                }
             }
             
             HStack {

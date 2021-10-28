@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A7278AA272AAAA600609077 /* RowMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7278A9272AAAA600609077 /* RowMenuView.swift */; };
 		1AA20942272868E9001274C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20941272868E9001274C5 /* AppDelegate.swift */; };
 		1AA20944272868EA001274C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20943272868EA001274C5 /* HomeView.swift */; };
 		1AA20946272868EA001274C5 /* Scene1.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 1AA20945272868EA001274C5 /* Scene1.rcproject */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7278A9272AAAA600609077 /* RowMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowMenuView.swift; sourceTree = "<group>"; };
 		1AA2093E272868E9001274C5 /* ProjectAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA20941272868E9001274C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AA20943272868EA001274C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				1AA20943272868EA001274C5 /* HomeView.swift */,
 				1AC1208627296FFA00F6374F /* MainMenuView.swift */,
+				1A7278A9272AAAA600609077 /* RowMenuView.swift */,
 				1AC1208427296F1C00F6374F /* RealityView.swift */,
 				1AC6F4102729BD4600B7134B /* BackgroundView.swift */,
 			);
@@ -208,6 +211,7 @@
 				1AA20956272869F2001274C5 /* Scene1ARView.swift in Sources */,
 				1AC1208327296B3E00F6374F /* Scene2.rcproject in Sources */,
 				1AA20942272868E9001274C5 /* AppDelegate.swift in Sources */,
+				1A7278AA272AAAA600609077 /* RowMenuView.swift in Sources */,
 				1AA20946272868EA001274C5 /* Scene1.rcproject in Sources */,
 				1AC6F40B2729ADE200B7134B /* Scene2ARView.swift in Sources */,
 				1AC6F40D2729B26D00B7134B /* ProjectARViewModel.swift in Sources */,

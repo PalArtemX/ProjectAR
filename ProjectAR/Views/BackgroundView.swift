@@ -10,31 +10,36 @@ import SwiftUI
 struct BackgroundView: View {
     
     @State private var isShow = true
+    var uiScreen = UIScreen.main.bounds.width * 0.60
     
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.blue.opacity(0.1), lineWidth: 50)
-                .frame(width: 300, height: 300)
-                .rotationEffect(Angle(degrees: isShow ? 180 : 45))
+                .stroke(.blue.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .rotationEffect(Angle(degrees: isShow ? 360 : 0))
+            
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.red.opacity(0.1), lineWidth: 50)
-                .frame(width: 300, height: 300)
-                .rotationEffect(Angle(degrees: isShow ? 0 : 360))
+                .stroke(.red.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .rotationEffect(Angle(degrees: isShow ? 20 : 340))
+            
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.green.opacity(0.1), lineWidth: 50)
-                .frame(width: 300, height: 300)
-                .rotationEffect(Angle(degrees: isShow ? 45 : 360))
+                .stroke(.green.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .rotationEffect(Angle(degrees: isShow ? 320 : 40))
+            
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.yellow.opacity(0.1), lineWidth: 50)
-                .frame(width: 300, height: 300)
-                .rotationEffect(Angle(degrees: isShow ? 360 : 45))
+                .stroke(.yellow.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .rotationEffect(Angle(degrees: isShow ? 60 : 300))
+            
+            RoundedRectangle(cornerRadius: 25)
+                .stroke(.indigo.opacity(0.05), lineWidth: uiScreen > 300 ? 100 : 50)
+                .rotationEffect(Angle(degrees: isShow ? 280 : 80))
             
             
         }
+        .frame(width: uiScreen, height: uiScreen)
         .onAppear {
             withAnimation(Animation
-                            .linear(duration: 50)
+                            .linear(duration: 100)
                             .repeatForever(autoreverses: false)) {
                 isShow.toggle()
             }
@@ -54,7 +59,6 @@ struct backgroundView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             BackgroundView()
-                .previewInterfaceOrientation(.portrait)
             BackgroundView()
                 .preferredColorScheme(.dark)
         }
