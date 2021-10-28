@@ -35,7 +35,7 @@ struct RealityView: View {
                     Text("Menu")
                 }
                 .buttonStyle(.bordered)
-                .padding(.bottom, 50)
+                .padding(.bottom, 67)
             }
             
         }

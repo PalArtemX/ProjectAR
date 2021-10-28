@@ -12,10 +12,12 @@ struct DefaultRealityView: View {
         ZStack {
             BackgroundView()
             Text("Soon")
+                
                 .font(.largeTitle)
                 .foregroundColor(Color.themeColor.green)
                 .fontWeight(.bold)
                 .opacity(0.8)
+                .padding()
         }
     }
 }
