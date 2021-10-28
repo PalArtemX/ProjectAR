@@ -20,7 +20,7 @@ struct RealityView: View {
             case 2:
                 Scene2ARView()
             default:
-                BackgroundView()
+                DefaultRealityView()
                 
             }
             // MARK: - Menu Button

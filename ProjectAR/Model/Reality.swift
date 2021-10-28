@@ -8,8 +8,10 @@
 import Foundation
 
 
-struct Reality {
-    var indexAR = 0
-    var isShowRealityView = false
-    var isShowRotationRow = false
+struct Reality: Identifiable {
+    var id = UUID()
+    
+    var indexAR: Int
+    var isShowRealityView: Bool
+    var isShowRotationRow: Bool
 }

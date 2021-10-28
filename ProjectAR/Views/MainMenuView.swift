@@ -10,36 +10,35 @@ import SwiftUI
 struct MainMenuView: View {
     
     @ObservedObject var vm: ProjectARViewModel
-    let columns: [GridItem] = [GridItem(.adaptive(minimum: 140, maximum: 300))]
+    let columns: [GridItem] = [GridItem(.adaptive(minimum: 200, maximum: 300))]
+    let numberOfScenes = 5
     
     var body: some View {
         VStack {
+            // MARK: - Main Menu
             Text("Main Menu")
                 .font(.largeTitle)
   
-            LazyVGrid(columns: columns) {
-                // MARK: - Scene 1
-                Button {
-                    withAnimation(.spring()) {
-                        vm.reality.indexAR = 1
-                        vm.reality.isShowRealityView = true
-                        vm.reality.isShowRotationRow.toggle()
+            
+            // MARK: - SCENS
+            
+            ScrollView {
+                LazyVGrid(columns: columns, spacing: 50) {
+                   
+                    ForEach(1..<numberOfScenes) { index in
+                        Button {
+                            withAnimation(.spring()) {
+                                vm.reality.indexAR = index
+                                vm.reality.isShowRealityView = true
+                                vm.reality.isShowRotationRow.toggle()
+                            }
+                        } label: {
+                            RowMenuView(image: Image(systemName: "\(index).circle"), vm: vm)
+                        }
                     }
-                } label: {
-                    RowMenuView(image: Image(systemName: "1.circle"), name: "One", isShowRotation: $vm.reality.isShowRotationRow)
                 }
-                // MARK: - Scene 2
-                Button {
-                    withAnimation(.spring()) {
-                        vm.reality.indexAR = 2
-                        vm.reality.isShowRealityView = true
-                        vm.reality.isShowRotationRow.toggle()
-                    }
-                } label: {
-                    RowMenuView(image: Image(systemName: "2.circle"), name: "Two", isShowRotation: $vm.reality.isShowRotationRow)
-                }
+                .padding()
             }
-            .padding()
             Spacer()
 
         }

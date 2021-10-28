@@ -9,17 +9,26 @@ import SwiftUI
 
 struct RowMenuView: View {
     let image: Image
-    let name: String
-    @Binding var isShowRotation: Bool
+    @ObservedObject var vm: ProjectARViewModel
     
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25)
                 .stroke(.blue.opacity(0.5), lineWidth: 5)
-                .rotationEffect(Angle(degrees: isShowRotation ? 0 : 360))
+                .rotationEffect(Angle(degrees: 0))
+            RoundedRectangle(cornerRadius: 25)
+                .stroke(.red.opacity(0.5), lineWidth: 5)
+                .rotationEffect(Angle(degrees: 15))
+            RoundedRectangle(cornerRadius: 25)
+                .stroke(.green.opacity(0.5), lineWidth: 5)
+                .rotationEffect(Angle(degrees: 30))
             RoundedRectangle(cornerRadius: 25)
                 .stroke(.yellow.opacity(0.5), lineWidth: 5)
-                .rotationEffect(Angle(degrees: isShowRotation ? 360 : 0))
+                .rotationEffect(Angle(degrees: 45))
+            RoundedRectangle(cornerRadius: 25)
+                .stroke(.indigo.opacity(0.5), lineWidth: 5)
+                .rotationEffect(Angle(degrees: 60))
+
              
             VStack {
                 HStack {
@@ -27,7 +36,6 @@ struct RowMenuView: View {
                     Text("Scene")
                 }
                 Spacer()
-                Text(name)
             }
             .padding()
             .font(.headline)
@@ -50,8 +58,8 @@ struct RowMenuView: View {
 struct RowAR_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            RowMenuView(image: Image(systemName: "1.circle"), name: "One", isShowRotation: .constant(false))
-            RowMenuView(image: Image("1"), name: "One", isShowRotation: .constant(false))
+            RowMenuView(image: Image(systemName: "1.circle"), vm: ProjectARViewModel())
+            RowMenuView(image: Image(systemName: "1.circle"), vm: ProjectARViewModel())
                 .preferredColorScheme(.dark)
         }
     }
