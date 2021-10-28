@@ -8,31 +8,36 @@
 import SwiftUI
 
 struct RealityView: View {
-
+    
     @ObservedObject var vm: ProjectARViewModel
     
     var body: some View {
         ZStack(alignment: .bottom) {
             
             switch vm.reality.indexAR {
+                // MARK: - Scene 1
             case 1:
                 Scene1ARView()
+                // MARK: - Scene 2
             case 2:
                 Scene2ARView()
+                // MARK: - Default Scene
             default:
                 DefaultRealityView()
                 
             }
             // MARK: - Menu Button
-            Button {
-                vm.reality.isShowRealityView = false
-            } label: {
-                Image(systemName: "filemenu.and.selection")
-                Text("Menu")
+            VStack {
+                Button {
+                    vm.reality.isShowRealityView = false
+                } label: {
+                    Image(systemName: "filemenu.and.selection")
+                    Text("Menu")
+                }
+                .buttonStyle(.bordered)
+                .padding(.bottom, 50)
             }
-            .padding()
-            .buttonStyle(.bordered)
-                    
+            
         }
         .ignoresSafeArea()
     }

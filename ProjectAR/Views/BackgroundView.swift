@@ -15,31 +15,27 @@ struct BackgroundView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.blue.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .stroke(Color.themeColor.blue.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 360 : 0))
             
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.red.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .stroke(Color.themeColor.green.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 20 : 340))
             
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.green.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .stroke(Color.themeColor.red.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 320 : 40))
             
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.yellow.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
+                .stroke(Color.themeColor.yellow.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 60 : 300))
-            
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(.indigo.opacity(0.02), lineWidth: uiScreen > 300 ? 100 : 50)
-                .rotationEffect(Angle(degrees: isShow ? 280 : 80))
             
             
         }
         .frame(width: uiScreen, height: uiScreen)
         .onAppear {
             withAnimation(Animation
-                            .linear(duration: 100)
+                            .linear(duration: 150)
                             .repeatForever(autoreverses: false)) {
                 isShow.toggle()
             }

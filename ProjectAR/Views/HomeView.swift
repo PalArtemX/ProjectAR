@@ -24,6 +24,7 @@ struct HomeView : View {
                 MainMenuView(vm: vm)
             }
         }
+        .ignoresSafeArea(edges: .bottom)
     }
 }
 

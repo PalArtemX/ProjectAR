@@ -10,7 +10,10 @@ import SwiftUI
 
 
 struct ThemeColor {
-    let textColor = Color("TextColor")
+    let blue = Color("Blue")
+    let green = Color("Green")
+    let red = Color("Red")
+    let yellow = Color("Yellow")
 }
 
 extension Color {

@@ -13,7 +13,7 @@ struct DefaultRealityView: View {
             BackgroundView()
             Text("Soon")
                 .font(.largeTitle)
-                .foregroundColor(.themeColor.textColor)
+                .foregroundColor(Color.themeColor.green)
                 .fontWeight(.bold)
                 .opacity(0.8)
         }

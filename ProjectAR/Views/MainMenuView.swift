@@ -18,12 +18,13 @@ struct MainMenuView: View {
             // MARK: - Main Menu
             Text("Main Menu")
                 .font(.largeTitle)
+                .foregroundColor(Color.themeColor.green)
   
             
             // MARK: - SCENS
             
-            ScrollView {
-                LazyVGrid(columns: columns, spacing: 50) {
+            ScrollView(showsIndicators: false) {
+                LazyVGrid(columns: columns, spacing: 30) {
                    
                     ForEach(1..<numberOfScenes) { index in
                         Button {

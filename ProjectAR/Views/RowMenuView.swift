@@ -13,35 +13,21 @@ struct RowMenuView: View {
     
     var body: some View {
         ZStack {
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(.blue.opacity(0.5), lineWidth: 5)
-                .rotationEffect(Angle(degrees: 0))
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(.red.opacity(0.5), lineWidth: 5)
-                .rotationEffect(Angle(degrees: 15))
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(.green.opacity(0.5), lineWidth: 5)
-                .rotationEffect(Angle(degrees: 30))
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(.yellow.opacity(0.5), lineWidth: 5)
-                .rotationEffect(Angle(degrees: 45))
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(.indigo.opacity(0.5), lineWidth: 5)
-                .rotationEffect(Angle(degrees: 60))
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.themeColor.blue.opacity(0.9), lineWidth: 5)
 
-             
             VStack {
                 HStack {
                     image
-                    Text("Scene")
+                    Spacer()
                 }
                 Spacer()
             }
             .padding()
-            .font(.headline)
-            .foregroundColor(.themeColor.textColor)
+            .font(.title3)
+            .foregroundColor(.themeColor.green)
         }
-        .frame(width: 150, height: 150, alignment: .center)
+        .frame(width: 200, height: 150, alignment: .center)
         .padding()
     }
 }
