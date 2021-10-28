@@ -10,20 +10,19 @@ import RealityKit
 
 struct HomeView : View {
     
-    @State private var isShowRealityView = false
     @StateObject var vm = ProjectARViewModel()
     
     var body: some View {
         ZStack {
+            // MARK: - Background
             BackgroundView()
-            
-            if isShowRealityView {
-                
-                // RealityView
-                RealityView(isShowRealityView: $isShowRealityView, vm: vm)
-            } else {
-                // MainMenuView
-                MainMenuView(isShowRealityView: $isShowRealityView, vm: vm)
+            // MARK: - RealityView
+            if vm.reality.isShowRealityView {
+                RealityView(vm: vm)
+            }
+            // MARK: - MainMenuView
+            if !vm.reality.isShowRealityView {
+                MainMenuView(vm: vm)
             }
         }
     }

@@ -8,13 +8,13 @@
 import SwiftUI
 
 struct RealityView: View {
-    
-    @Binding var isShowRealityView: Bool
+
     @ObservedObject var vm: ProjectARViewModel
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            switch vm.indexAR {
+            
+            switch vm.reality.indexAR {
             case 1:
                 Scene1ARView()
             case 2:
@@ -23,8 +23,9 @@ struct RealityView: View {
                 BackgroundView()
                 
             }
+            // MARK: - Menu Button
             Button {
-                isShowRealityView = false
+                vm.reality.isShowRealityView = false
             } label: {
                 Image(systemName: "filemenu.and.selection")
                 Text("Menu")
@@ -48,7 +49,6 @@ struct RealityView: View {
 
 struct RealityView_Previews: PreviewProvider {
     static var previews: some View {
-        RealityView(isShowRealityView: .constant(false), vm: ProjectARViewModel())
-.previewInterfaceOrientation(.portrait)
+        RealityView(vm: ProjectARViewModel())
     }
 }

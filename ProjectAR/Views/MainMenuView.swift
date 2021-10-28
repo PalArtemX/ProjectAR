@@ -9,36 +9,38 @@ import SwiftUI
 
 struct MainMenuView: View {
     
-    @Binding var isShowRealityView: Bool
     @ObservedObject var vm: ProjectARViewModel
+    let columns: [GridItem] = [GridItem(.adaptive(minimum: 140, maximum: 300))]
     
     var body: some View {
         VStack {
             Text("Main Menu")
                 .font(.largeTitle)
+  
+            LazyVGrid(columns: columns) {
+                // MARK: - Scene 1
+                Button {
+                    withAnimation(.spring()) {
+                        vm.reality.indexAR = 1
+                        vm.reality.isShowRealityView = true
+                        vm.reality.isShowRotationRow.toggle()
+                    }
+                } label: {
+                    RowMenuView(image: Image(systemName: "1.circle"), name: "One", isShowRotation: $vm.reality.isShowRotationRow)
+                }
+                // MARK: - Scene 2
+                Button {
+                    withAnimation(.spring()) {
+                        vm.reality.indexAR = 2
+                        vm.reality.isShowRealityView = true
+                        vm.reality.isShowRotationRow.toggle()
+                    }
+                } label: {
+                    RowMenuView(image: Image(systemName: "2.circle"), name: "Two", isShowRotation: $vm.reality.isShowRotationRow)
+                }
+            }
+            .padding()
             Spacer()
-            
-            ScrollView {
-                VStack {
-                    
-                }
-            }
-            
-            HStack {
-                Button {
-                    vm.indexAR = 1
-                    isShowRealityView = true
-                } label: {
-                    Text("AR View1")
-                }
-                
-                Button {
-                    vm.indexAR = 2
-                    isShowRealityView = true
-                } label: {
-                    Text("AR View2")
-            }
-            }
 
         }
     }
@@ -55,6 +57,6 @@ struct MainMenuView: View {
 
 struct MainMenuView_Previews: PreviewProvider {
     static var previews: some View {
-        MainMenuView(isShowRealityView: .constant(false), vm: ProjectARViewModel())
+        MainMenuView(vm: ProjectARViewModel())
     }
 }

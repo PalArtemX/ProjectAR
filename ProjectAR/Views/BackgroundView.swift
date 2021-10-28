@@ -31,7 +31,7 @@ struct BackgroundView: View {
                 .rotationEffect(Angle(degrees: isShow ? 60 : 300))
             
             RoundedRectangle(cornerRadius: 25)
-                .stroke(.indigo.opacity(0.05), lineWidth: uiScreen > 300 ? 100 : 50)
+                .stroke(.indigo.opacity(0.02), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 280 : 80))
             
             

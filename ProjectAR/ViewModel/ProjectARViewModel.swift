@@ -10,5 +10,6 @@ import Foundation
 
 class ProjectARViewModel: ObservableObject {
     
-    @Published var indexAR = 1
+    @Published var reality = Reality()
+    
 }
