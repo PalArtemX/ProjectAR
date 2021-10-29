@@ -7,11 +7,11 @@
 
 import Foundation
 
-
 struct Reality: Identifiable {
     var id = UUID()
     
     var indexAR: Int
     var isShowRealityView: Bool
     var isShowRotationRow: Bool
+    
 }

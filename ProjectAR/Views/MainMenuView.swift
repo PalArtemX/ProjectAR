@@ -15,7 +15,7 @@ struct MainMenuView: View {
     
     var body: some View {
         VStack {
-            // MARK: - Main Menu
+            // MARK: - Header Main Menu
             Text("Main Menu")
                 .font(.largeTitle)
                 .foregroundColor(Color.themeColor.green)
@@ -34,7 +34,7 @@ struct MainMenuView: View {
                                 vm.reality.isShowRotationRow.toggle()
                             }
                         } label: {
-                            RowMenuView(image: Image(systemName: "\(index).circle"), vm: vm)
+                            RowMenuView(systemName: "\(index).circle", image: "\(index)", vm: vm)
                         }
                     }
                 }

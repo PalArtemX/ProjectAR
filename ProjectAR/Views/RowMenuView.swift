@@ -8,20 +8,26 @@
 import SwiftUI
 
 struct RowMenuView: View {
-    let image: Image
+    let systemName: String
+    let image: String
     @ObservedObject var vm: ProjectARViewModel
     
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
                 .stroke(Color.themeColor.blue.opacity(0.9), lineWidth: 5)
-
+            
             VStack {
                 HStack {
-                    image
+                    Image(systemName: "\(systemName)")
                     Spacer()
+                    
                 }
-                Spacer()
+                Image(image)
+                    .resizable()
+                    .scaledToFit()
+                    .frame(height: 90)
+                
             }
             .padding()
             .font(.title3)
@@ -44,8 +50,8 @@ struct RowMenuView: View {
 struct RowAR_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            RowMenuView(image: Image(systemName: "1.circle"), vm: ProjectARViewModel())
-            RowMenuView(image: Image(systemName: "1.circle"), vm: ProjectARViewModel())
+            RowMenuView(systemName: "1.circle", image: "2", vm: ProjectARViewModel())
+            RowMenuView(systemName: "1.circle", image: "2", vm: ProjectARViewModel())
                 .preferredColorScheme(.dark)
         }
     }
