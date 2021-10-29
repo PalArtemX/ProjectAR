@@ -26,14 +26,15 @@ struct RowMenuView: View {
                 Image(image)
                     .resizable()
                     .scaledToFit()
-                    .frame(height: 90)
+                    .frame(height: 100)
+                    .opacity(0.9)
                 
             }
             .padding()
             .font(.title3)
             .foregroundColor(.themeColor.green)
         }
-        .frame(width: 200, height: 150, alignment: .center)
+        .frame(width: 250, height: 200, alignment: .center)
         .padding()
     }
 }
@@ -50,8 +51,8 @@ struct RowMenuView: View {
 struct RowAR_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            RowMenuView(systemName: "1.circle", image: "2", vm: ProjectARViewModel())
-            RowMenuView(systemName: "1.circle", image: "2", vm: ProjectARViewModel())
+            RowMenuView(systemName: "1.circle", image: "1", vm: ProjectARViewModel())
+            RowMenuView(systemName: "1.circle", image: "1", vm: ProjectARViewModel())
                 .preferredColorScheme(.dark)
         }
     }

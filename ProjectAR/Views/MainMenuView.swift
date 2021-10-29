@@ -10,8 +10,10 @@ import SwiftUI
 struct MainMenuView: View {
     
     @ObservedObject var vm: ProjectARViewModel
-    let columns: [GridItem] = [GridItem(.adaptive(minimum: 200, maximum: 300))]
-    let numberOfScenes = 5
+    let columns: [GridItem] = [GridItem(.adaptive(minimum: 260, maximum: 350))]
+    
+    // MARK: - Number Of Scenes +1
+    let numberOfScenes = 4
     
     var body: some View {
         VStack {

@@ -8,5 +8,30 @@
     "libraryIdentifier" : "5b4bb728e61cb8b0ee38e28d294d6ec5",
     "format" : "model",
     "displayName" : "Pipe1.usdz"
+  },
+  {
+    "libraryIdentifier" : "d8a79c38346b8430e1bce66ec909c6c8",
+    "format" : "model",
+    "displayName" : "Microphone2.usdz"
+  },
+  {
+    "libraryIdentifier" : "67d4dd8ab71264d9d1b595495296531f",
+    "format" : "model",
+    "displayName" : "Microphone2.usdz"
+  },
+  {
+    "libraryIdentifier" : "98f62359bc0af5440fca27c7d5424869",
+    "format" : "model",
+    "displayName" : "Metal_Cup.usdz"
+  },
+  {
+    "libraryIdentifier" : "0c0bb9c62a19e0452e0a45515f8c2285",
+    "format" : "model",
+    "displayName" : "Glasses.usdz"
+  },
+  {
+    "libraryIdentifier" : "818e0145efc5b19eb9755fe991d20390",
+    "format" : "model",
+    "displayName" : "Old_Sofa.usdz"
   }
 ]
