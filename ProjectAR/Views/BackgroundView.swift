@@ -30,12 +30,22 @@ struct BackgroundView: View {
                 .stroke(Color.themeColor.yellow.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 60 : 300))
             
+            VStack(alignment: .leading) {
+                Text("AR")
+                    .fontWeight(.light)
+                    .foregroundColor(.themeColor.textLogo)
+                    
+                Text("Scenes")
+                    .foregroundColor(.themeColor.textLogo)
+                    .fontWeight(.black)
+            }
+            .font(.largeTitle)
             
         }
         .frame(width: uiScreen, height: uiScreen)
         .onAppear {
             withAnimation(Animation
-                            .linear(duration: 150)
+                            .linear(duration: 100)
                             .repeatForever(autoreverses: false)) {
                 isShow.toggle()
             }

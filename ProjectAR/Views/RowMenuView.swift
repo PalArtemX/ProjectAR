@@ -15,7 +15,7 @@ struct RowMenuView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 10)
-                .stroke(Color.themeColor.blue.opacity(0.9), lineWidth: 5)
+                .stroke(Color.themeColor.blue.opacity(0.9), lineWidth: 3)
             
             VStack {
                 HStack {

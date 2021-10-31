@@ -11,6 +11,12 @@ struct DefaultRealityView: View {
     var body: some View {
         ZStack {
             BackgroundView()
+            Image("AR")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 30)
+                .opacity(0.5)
+                .offset(y: -30)
             Text("Soon")
                 .font(.largeTitle)
                 .foregroundColor(Color.themeColor.green)

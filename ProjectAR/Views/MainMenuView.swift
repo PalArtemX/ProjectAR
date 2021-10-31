@@ -13,14 +13,14 @@ struct MainMenuView: View {
     let columns: [GridItem] = [GridItem(.adaptive(minimum: 260, maximum: 350))]
     
     // MARK: - Number Of Scenes +1
-    let numberOfScenes = 4
+    let numberOfScenes = 5
     
     var body: some View {
         VStack {
             // MARK: - Header Main Menu
-            Text("Main Menu")
-                .font(.largeTitle)
-                .foregroundColor(Color.themeColor.green)
+//            Text("Main Menu")
+//                .font(.largeTitle)
+//                .foregroundColor(Color.themeColor.green)
   
             
             // MARK: - SCENS

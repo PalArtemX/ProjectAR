@@ -14,6 +14,7 @@ struct ThemeColor {
     let green = Color("Green")
     let red = Color("Red")
     let yellow = Color("Yellow")
+    let textLogo = Color("TextLogo")
 }
 
 extension Color {
