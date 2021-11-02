@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView : View {
     
-    @StateObject var vm = ProjectARViewModel()
+    @StateObject var vm = ARViewModel()
     
     var body: some View {
         ZStack {

@@ -14,6 +14,7 @@ struct BackgroundView: View {
     
     var body: some View {
         ZStack {
+            // MARK: - RoundedRectangles
             RoundedRectangle(cornerRadius: 25)
                 .stroke(Color.themeColor.blue.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 360 : 0))
@@ -30,11 +31,12 @@ struct BackgroundView: View {
                 .stroke(Color.themeColor.yellow.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
                 .rotationEffect(Angle(degrees: isShow ? 60 : 300))
             
+            // MARK: - Logo
             VStack(alignment: .leading) {
                 Text("AR")
                     .fontWeight(.light)
                     .foregroundColor(.themeColor.textLogo)
-                    
+                
                 Text("Scenes")
                     .foregroundColor(.themeColor.textLogo)
                     .fontWeight(.black)
@@ -44,11 +46,12 @@ struct BackgroundView: View {
         }
         .frame(width: uiScreen, height: uiScreen)
         .onAppear {
-            withAnimation(Animation
-                            .linear(duration: 100)
-                            .repeatForever(autoreverses: false)) {
-                isShow.toggle()
-            }
+            withAnimation(
+                Animation
+                    .linear(duration: 100)
+                    .repeatForever(autoreverses: false)) {
+                        isShow.toggle()
+                    }
         }
     }
 }

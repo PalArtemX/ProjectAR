@@ -12,6 +12,4 @@ struct Reality: Identifiable {
     
     var indexAR: Int
     var isShowRealityView: Bool
-    var isShowRotationRow: Bool
-    
 }

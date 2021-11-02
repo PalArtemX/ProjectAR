@@ -9,11 +9,10 @@ import SwiftUI
 
 struct RealityView: View {
     
-    @ObservedObject var vm: ProjectARViewModel
+    @ObservedObject var vm: ARViewModel
     
     var body: some View {
-        ZStack(alignment: .bottom) {
-            
+        ZStack {
             switch vm.reality.indexAR {
                 // MARK: - Scene 1
             case 1:
@@ -27,17 +26,7 @@ struct RealityView: View {
                 
             }
             // MARK: - Menu Button
-            VStack {
-                Button {
-                    vm.reality.isShowRealityView = false
-                } label: {
-                    Image(systemName: "filemenu.and.selection")
-                    Text("Menu")
-                }
-                .buttonStyle(.bordered)
-                .padding(.bottom, 67)
-            }
-            
+            ButtonMenuView(vm: vm)
         }
         .ignoresSafeArea()
     }
@@ -54,6 +43,6 @@ struct RealityView: View {
 
 struct RealityView_Previews: PreviewProvider {
     static var previews: some View {
-        RealityView(vm: ProjectARViewModel())
+        RealityView(vm: ARViewModel())
     }
 }
