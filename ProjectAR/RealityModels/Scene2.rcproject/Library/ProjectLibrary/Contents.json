@@ -1,3 +1,12 @@
 [
-
+  {
+    "libraryIdentifier" : "5ada4277a28e3cc149bfd640f5d53f01",
+    "format" : "audio",
+    "displayName" : "game_piece_movement_slide_08.mp3"
+  },
+  {
+    "libraryIdentifier" : "34ef8f26aaae415f3c842a152cda43de",
+    "format" : "audio",
+    "displayName" : "udar2.mp3"
+  }
 ]
