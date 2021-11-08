@@ -10,8 +10,6 @@ import SwiftUI
 struct DefaultRealityView: View {
     var body: some View {
         ZStack {
-            // MARK: - BackgroundView
-            BackgroundView()
             
             // MARK: - Message
             Image("AR")
