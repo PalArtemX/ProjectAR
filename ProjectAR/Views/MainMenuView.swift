@@ -13,7 +13,7 @@ struct MainMenuView: View {
     let columns: [GridItem] = [GridItem(.adaptive(minimum: 260, maximum: 350))]
     
     // MARK: - Number Of Scenes +1
-    let numberOfScenes = 12
+    let numberOfScenes = 5
     
     var body: some View {
         VStack {
