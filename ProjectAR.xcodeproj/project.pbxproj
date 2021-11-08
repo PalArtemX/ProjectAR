@@ -28,6 +28,7 @@
 		1AC6F4112729BD4600B7134B /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC6F4102729BD4600B7134B /* BackgroundView.swift */; };
 		F8304DA5273951F400D045D2 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8304DA4273951F400D045D2 /* InfoView.swift */; };
 		F8304DA72739530D00D045D2 /* ButtonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8304DA62739530D00D045D2 /* ButtonInfoView.swift */; };
+		F8EAEF422739A7420033E35C /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEF412739A7420033E35C /* ChevronView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		1AC6F4102729BD4600B7134B /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F8304DA4273951F400D045D2 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		F8304DA62739530D00D045D2 /* ButtonInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonInfoView.swift; sourceTree = "<group>"; };
+		F8EAEF412739A7420033E35C /* ChevronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevronView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +133,11 @@
 				1AC1208627296FFA00F6374F /* MainMenuView.swift */,
 				1AC1208427296F1C00F6374F /* RealityView.swift */,
 				1A7278A9272AAAA600609077 /* RowMenuView.swift */,
-				1A6038E627319C6C00EF4916 /* ButtonMenuView.swift */,
 				1AC6F4102729BD4600B7134B /* BackgroundView.swift */,
 				1A7278B0272AE12400609077 /* DefaultRealityView.swift */,
 				F8304DA4273951F400D045D2 /* InfoView.swift */,
-				F8304DA62739530D00D045D2 /* ButtonInfoView.swift */,
+				F8EAEF412739A7420033E35C /* ChevronView.swift */,
+				F8304DA82739918200D045D2 /* ButtonViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -171,6 +173,15 @@
 				1A6038EF2731C8C500EF4916 /* FocusARView.swift */,
 			);
 			path = Utilits;
+			sourceTree = "<group>";
+		};
+		F8304DA82739918200D045D2 /* ButtonViews */ = {
+			isa = PBXGroup;
+			children = (
+				F8304DA62739530D00D045D2 /* ButtonInfoView.swift */,
+				1A6038E627319C6C00EF4916 /* ButtonMenuView.swift */,
+			);
+			path = ButtonViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +266,7 @@
 				1A7278B1272AE12400609077 /* DefaultRealityView.swift in Sources */,
 				F8304DA5273951F400D045D2 /* InfoView.swift in Sources */,
 				1AC6F4112729BD4600B7134B /* BackgroundView.swift in Sources */,
+				F8EAEF422739A7420033E35C /* ChevronView.swift in Sources */,
 				1AC1208527296F1C00F6374F /* RealityView.swift in Sources */,
 				1AA20956272869F2001274C5 /* Scene1ARView.swift in Sources */,
 				1A7278AD272ABBC800609077 /* Color.swift in Sources */,

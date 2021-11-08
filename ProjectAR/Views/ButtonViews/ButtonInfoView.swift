@@ -22,7 +22,7 @@ struct ButtonInfoView: View {
                     Image(systemName: "info.circle")
                         .foregroundColor(.themeColor.red)
                         .font(.title)
-                        .opacity(0.8)
+                        .opacity(0.5)
                 }
             }
         }

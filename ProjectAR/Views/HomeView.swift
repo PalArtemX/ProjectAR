@@ -10,7 +10,6 @@ import SwiftUI
 struct HomeView : View {
     
     @StateObject var vm = ARViewModel()
-    @State var isShowButtonInfo = false
     
     var body: some View {
         ZStack {
@@ -24,11 +23,6 @@ struct HomeView : View {
             if !vm.reality.isShowRealityView {
                 MainMenuView(vm: vm)
             }
-            // MARK: - InfoView
-            ButtonInfoView(vm: vm)
-                .sheet(isPresented: $vm.reality.isShowButtonInfo, content: {
-                    InfoView()
-                })
         }
         .ignoresSafeArea(edges: .bottom)
     }

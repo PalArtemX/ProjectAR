@@ -11,27 +11,35 @@ struct MainMenuView: View {
     
     @ObservedObject var vm: ARViewModel
     let columns: [GridItem] = [GridItem(.adaptive(minimum: 260, maximum: 350))]
+    @State var isShowButtonInfo = false
     
     // MARK: - Number Of Scenes +1
     let numberOfScenes = 5
     
     var body: some View {
-        VStack {
-            // MARK: - SCENS
-            ScrollView(showsIndicators: false) {
-                LazyVGrid(columns: columns, spacing: 30) {
-                    ForEach(1..<numberOfScenes) { i in
-                        Button {
-                            withAnimation {
-                                vm.reality.indexAR = i
-                                vm.reality.isShowRealityView = true
+        ZStack {
+            VStack {
+                // MARK: - SCENS
+                ScrollView(showsIndicators: false) {
+                    LazyVGrid(columns: columns, spacing: 30) {
+                        ForEach(1..<numberOfScenes) { i in
+                            Button {
+                                withAnimation {
+                                    vm.reality.indexAR = i
+                                    vm.reality.isShowRealityView = true
+                                }
+                            } label: {
+                                RowMenuView(systemName: "\(i).circle", image: "\(i)", vm: vm)
                             }
-                        } label: {
-                            RowMenuView(systemName: "\(i).circle", image: "\(i)", vm: vm)
                         }
                     }
                 }
             }
+            // MARK: - InfoView
+            ButtonInfoView(vm: vm)
+                .sheet(isPresented: $vm.reality.isShowButtonInfo, content: {
+                    InfoView()
+                })
         }
     }
 }

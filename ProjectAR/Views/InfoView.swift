@@ -10,17 +10,35 @@ import SwiftUI
 struct InfoView: View {
     var body: some View {
         ZStack {
+            // MARK: - BackgroundView
             BackgroundView()
             
             VStack {
+                // MARK: - Header
                 HStack {
-                    Image(systemName: "info.circle")
+                    Text("AR")
+                        .fontWeight(.light)
+                        .foregroundColor(.themeColor.red)
                     
-                    Text("AR Info")
+                    Text("Info")
+                        .foregroundColor(.themeColor.red)
+                        .fontWeight(.black)
                     Spacer()
-                    
                 }
+                
                 Spacer()
+                
+                // MARK: - Footer
+                VStack {
+                    Text("The application was created for a portfolio")
+                        .fontWeight(.light)
+                    Text("Created by Artem Paliutin")
+                        .fontWeight(.light)
+                        
+                }
+                .foregroundColor(.gray)
+                .font(.caption2)
+                
             }
             .font(.largeTitle)
             .foregroundColor(.themeColor.red)

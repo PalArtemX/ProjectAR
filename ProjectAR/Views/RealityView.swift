@@ -17,9 +17,11 @@ struct RealityView: View {
                 // MARK: - Scene 1
             case 1:
                 Scene1ARView()
+                ChevronView()
                 // MARK: - Scene 2
             case 2:
                 Scene2ARView()
+                ChevronView()
                 // MARK: - Default Scene
             default:
                 DefaultRealityView()
