@@ -7,6 +7,7 @@
 
 import RealityKit
 import SwiftUI
+import ARKit
 
 struct Scene2ARView: UIViewRepresentable {
     

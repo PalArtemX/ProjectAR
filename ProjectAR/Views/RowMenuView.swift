@@ -22,6 +22,7 @@ struct RowMenuView: View {
                 // MARK: - The Number In The Circle
                 HStack {
                     Image(systemName: "\(systemName)")
+                        .opacity(0.8)
                     Spacer()
                 }
                 // MARK: - Scene Image
@@ -29,7 +30,7 @@ struct RowMenuView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(height: 100)
-                    .opacity(0.9)
+                    .opacity(0.8)
             }
             .padding()
             .font(.title3)

@@ -10,49 +10,52 @@ import SwiftUI
 struct BackgroundView: View {
     
     @State private var isShow = true
-    var uiScreen = UIScreen.main.bounds.width * 0.60
     
     var body: some View {
-        ZStack {
-            // MARK: - RoundedRectangles
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(Color.themeColor.blue.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
-                .rotationEffect(Angle(degrees: isShow ? 360 : 0))
-            
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(Color.themeColor.green.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
-                .rotationEffect(Angle(degrees: isShow ? 20 : 340))
-            
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(Color.themeColor.red.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
-                .rotationEffect(Angle(degrees: isShow ? 320 : 40))
-            
-            RoundedRectangle(cornerRadius: 25)
-                .stroke(Color.themeColor.yellow.opacity(0.1), lineWidth: uiScreen > 300 ? 100 : 50)
-                .rotationEffect(Angle(degrees: isShow ? 60 : 300))
-            
-            // MARK: - Logo
-            VStack(alignment: .leading) {
-                Text("AR")
-                    .fontWeight(.light)
-                    .foregroundColor(.themeColor.textLogo)
+        GeometryReader { geo in
+            ZStack {
+                // MARK: - RoundedRectangles
+                RoundedRectangle(cornerRadius: 25)
+                    .stroke(Color.themeColor.blue.opacity(0.5), lineWidth: 20)
+                    .rotationEffect(Angle(degrees: isShow ? 360 : 0))
                 
-                Text("Scenes")
-                    .foregroundColor(.themeColor.textLogo)
-                    .fontWeight(.black)
+                RoundedRectangle(cornerRadius: 25)
+                    .stroke(Color.themeColor.green.opacity(0.2), lineWidth: 20)
+                    .rotationEffect(Angle(degrees: isShow ? 20 : 340))
+                
+                RoundedRectangle(cornerRadius: 25)
+                    .stroke(Color.themeColor.red.opacity(0.2), lineWidth: 20)
+                    .rotationEffect(Angle(degrees: isShow ? 320 : 40))
+                
+                RoundedRectangle(cornerRadius: 25)
+                    .stroke(Color.themeColor.yellow.opacity(0.2), lineWidth: 20)
+                    .rotationEffect(Angle(degrees: isShow ? 60 : 300))
+                
+                // MARK: - Logo
+                VStack(alignment: .leading) {
+                    Text("AR")
+                        .fontWeight(.light)
+                        .foregroundColor(.themeColor.textLogo)
+                    
+                    Text("Scenes")
+                        .foregroundColor(.themeColor.textLogo)
+                        .fontWeight(.black)
+                }
+                .font(.largeTitle)
+                
             }
-            .font(.largeTitle)
-            
+            .frame(width: geo.size.width * 0.5, height: geo.size.height * 0.5)
+            //.frame(width: geo.size.width, height: geo.size.height) // centre
+            .onAppear {
+                withAnimation(
+                    Animation
+                        .linear(duration: 75)
+                        .repeatForever(autoreverses: false)) {
+                            isShow.toggle()
+                        }
+            }
         }
-        .frame(width: uiScreen, height: uiScreen)
-        .onAppear {
-            withAnimation(
-                Animation
-                    .linear(duration: 100)
-                    .repeatForever(autoreverses: false)) {
-                        isShow.toggle()
-                    }
-        }
+        
     }
 }
 
