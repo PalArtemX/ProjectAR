@@ -56,7 +56,7 @@ struct ChevronView: View {
                         isShowChevron.toggle()
                     }
             // Animation opacity
-            withAnimation(.linear(duration: 7)) {
+            withAnimation(.linear(duration: 6)) {
                 isShowOpacity = true
             }
         }

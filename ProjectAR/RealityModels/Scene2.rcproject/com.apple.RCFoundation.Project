@@ -62,7 +62,7 @@
                                           "target" : [
                                             "9C38E830-2920-4291-8E50-A9306AC9E6AC"
                                           ],
-                                          "volume" : 0.051995998475609755
+                                          "volume" : 0.051995998475609741
                                         },
                                         "name" : {
                                           "type" : "audio"
@@ -274,7 +274,7 @@
                                           "target" : [
                                             "C7B1B5BE-423F-433A-9E92-393BB2FBD218"
                                           ],
-                                          "volume" : 0.078839557926829271
+                                          "volume" : 0.078839557926829257
                                         },
                                         "name" : {
                                           "type" : "audio"
@@ -1822,6 +1822,92 @@
                     }
                   ],
                   "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "move out to below",
+                                          "distance" : 1,
+                                          "duration" : 1,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "05B620D7-9083-45BA-85D9-4E3D35BA0364"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "B1B5D185-DC70-4F7C-807F-4528113C2AD6",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "D26AA52A-453E-4DD8-86BC-60290FE5898C",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.87450981140136719,
+                        0.47058823704719543,
+                        0.31764706969261169,
+                        1
+                      ],
+                      "identifier" : "6E37087F-1747-41CF-BAA1-D770DACDD3B6",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "05B620D7-9083-45BA-85D9-4E3D35BA0364"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "25C7132E-9D96-49AF-B568-2B1F63701A04",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
                 }
               ],
               "gravity" : [
@@ -2292,7 +2378,7 @@
                           "height",
                           {
                             "typeName" : "Double",
-                            "value" : 0.025735845949547389
+                            "value" : 0.025735845949547392
                           }
                         ],
                         [
@@ -3429,21 +3515,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.98653757572174072,
-                  1.2257616033295449e-09,
-                  0.16353495419025421,
+                  0.99947047233581543,
+                  1.247615122323964e-09,
+                  -0.032539520412683487,
                   0,
-                  0.10952028632164001,
-                  0.74262607097625732,
-                  -0.6606903076171875,
+                  -0.026741474866867065,
+                  0.56975740194320679,
+                  -0.82137769460678101,
                   0,
-                  -0.1214451789855957,
-                  0.66970628499984741,
-                  0.73262852430343628,
+                  0.018539771437644958,
+                  0.82181298732757568,
+                  0.56945562362670898,
                   0,
-                  -0.11123058944940567,
-                  0.46133708953857422,
-                  0.48784080147743225,
+                  -0.01660480909049511,
+                  0.56813108921051025,
+                  0.42872920632362366,
                   1
                 ],
                 "sceneTransform" : [
