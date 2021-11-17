@@ -1,22 +1,22 @@
 //
-//  Scene2ARView.swift
+//  Scene3ARView.swift
 //  ProjectAR
 //
-//  Created by Artem Palyutin on 27.10.2021.
+//  Created by Artem Paliutin on 16.11.2021.
 //
 
 import RealityKit
 import SwiftUI
 import ARKit
 
-struct Scene2ARView: UIViewRepresentable {
+struct Scene3ARView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> ARView {
         
         let arView = ARView(frame: .zero)
         
-        let scene2 = try! Scene2.load_Scene2()
-        arView.scene.anchors.append(scene2)
+        let scene3 = try! Scene3.load_Scene3()
+        arView.scene.anchors.append(scene3)
         
         return arView
     }

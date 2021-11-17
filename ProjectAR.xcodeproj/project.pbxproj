@@ -28,6 +28,8 @@
 		F8304DA72739530D00D045D2 /* ButtonInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8304DA62739530D00D045D2 /* ButtonInfoView.swift */; };
 		F8EAEF422739A7420033E35C /* ChevronView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEF412739A7420033E35C /* ChevronView.swift */; };
 		F8EAEF47273A88860033E35C /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8EAEF46273A88860033E35C /* Launch Screen.storyboard */; };
+		F8EAEF492743D4530033E35C /* Scene3.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEF482743D4530033E35C /* Scene3.rcproject */; };
+		F8EAEF4B2743D4F50033E35C /* Scene3ARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EAEF4A2743D4F50033E35C /* Scene3ARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		F8EAEF412739A7420033E35C /* ChevronView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChevronView.swift; sourceTree = "<group>"; };
 		F8EAEF45273A858C0033E35C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F8EAEF46273A88860033E35C /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F8EAEF482743D4530033E35C /* Scene3.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Scene3.rcproject; sourceTree = "<group>"; };
+		F8EAEF4A2743D4F50033E35C /* Scene3ARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene3ARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +76,7 @@
 			children = (
 				1AA20955272869F2001274C5 /* Scene1ARView.swift */,
 				1AC6F40A2729ADE200B7134B /* Scene2ARView.swift */,
+				F8EAEF4A2743D4F50033E35C /* Scene3ARView.swift */,
 			);
 			path = ARViewContainer;
 			sourceTree = "<group>";
@@ -164,6 +169,7 @@
 			children = (
 				1AA20945272868EA001274C5 /* Scene1.rcproject */,
 				1AC1208227296B3E00F6374F /* Scene2.rcproject */,
+				F8EAEF482743D4530033E35C /* Scene3.rcproject */,
 			);
 			path = RealityModels;
 			sourceTree = "<group>";
@@ -268,10 +274,12 @@
 				1AC6F4112729BD4600B7134B /* BackgroundView.swift in Sources */,
 				F8EAEF422739A7420033E35C /* ChevronView.swift in Sources */,
 				1AC1208527296F1C00F6374F /* RealityView.swift in Sources */,
+				F8EAEF4B2743D4F50033E35C /* Scene3ARView.swift in Sources */,
 				1AA20956272869F2001274C5 /* Scene1ARView.swift in Sources */,
 				1A7278AD272ABBC800609077 /* Color.swift in Sources */,
 				1AC1208327296B3E00F6374F /* Scene2.rcproject in Sources */,
 				F8304DA72739530D00D045D2 /* ButtonInfoView.swift in Sources */,
+				F8EAEF492743D4530033E35C /* Scene3.rcproject in Sources */,
 				1AA20942272868E9001274C5 /* AppDelegate.swift in Sources */,
 				1A7278AA272AAAA600609077 /* RowMenuView.swift in Sources */,
 				1A6038E727319C6C00EF4916 /* ButtonMenuView.swift in Sources */,
@@ -412,6 +420,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectAR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Game Scenes";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
@@ -444,6 +453,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ProjectAR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AR Game Scenes";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";

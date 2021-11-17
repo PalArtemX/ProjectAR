@@ -30,7 +30,7 @@ struct RowMenuView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(height: 100)
-                    .opacity(0.8)
+                    //.opacity(1)
             }
             .padding()
             .font(.title3)

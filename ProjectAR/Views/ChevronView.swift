@@ -43,6 +43,7 @@ struct ChevronView: View {
             Image(systemName: "chevron.down")
                 .offset(y: isShowChevron ? -30 : 0)
         }
+        .foregroundColor(.white)
         .opacity(isShowOpacity ? 0 : 1)
         .padding()
         
