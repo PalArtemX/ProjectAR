@@ -237,7 +237,6 @@
 			);
 			mainGroup = 1AA20935272868E9001274C5;
 			packageReferences = (
-				1A6038EA2731BFB600EF4916 /* XCRemoteSwiftPackageReference "FocusEntity" */,
 			);
 			productRefGroup = 1AA2093F272868E9001274C5 /* Products */;
 			projectDirPath = "";
@@ -496,17 +495,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		1A6038EA2731BFB600EF4916 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 1AA20936272868E9001274C5 /* Project object */;
 }
