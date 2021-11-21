@@ -31,27 +31,28 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "force" : [
-                                            4.9274711955149542e-07,
-                                            1.0784128904342651,
-                                            -4.0246930122375488
-                                          ],
+                                          "audioType" : "play",
+                                          "filePath" : "audio:715fb0cb4addc2052fd75e9ba83e345e\/barabannaya-drob-otlichnaya-shutka.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
                                           "target" : [
-                                            "0B8BC4D3-AD67-4325-A409-D473A990E8DB"
-                                          ]
+                                            "BB6E7B9C-8077-4C97-85C5-AA567B1991D7",
+                                            "915E4A52-42F7-4C6B-9DC2-B12F3D481594"
+                                          ],
+                                          "volume" : 0.5
                                         },
                                         "name" : {
-                                          "type" : "physics"
+                                          "type" : "audio"
                                         }
                                       },
-                                      "identifier" : "67082232-217F-44EB-A41A-BDB926A512E2",
+                                      "identifier" : "5FCC1762-055E-48F2-88F3-52FB0EDDAF6E",
                                       "isEnabled" : true
                                     }
                                   ],
                                   "__version" : 1
                                 }
                               ],
-                              "identifier" : "F69BE201-7B6F-497E-AF75-3707C6F0B9D7",
+                              "identifier" : "AA123784-E996-4FF9-91EA-2FDD35946B1B",
                               "isEnabled" : true
                             }
                           ],
@@ -64,7 +65,7 @@
                         0.69019609689712524,
                         1
                       ],
-                      "identifier" : "3BBE3EE0-2122-458D-8242-CF702C992B1E",
+                      "identifier" : "699814BD-26CF-4306-B44A-FB07E5417445",
                       "isEnabled" : true,
                       "isLooping" : false,
                       "isModal" : false,
@@ -76,12 +77,421 @@
                               "configurationBox" : {
                                 "configuration" : {
                                   "target" : [
-                                    "0B8BC4D3-AD67-4325-A409-D473A990E8DB"
+                                    "BB6E7B9C-8077-4C97-85C5-AA567B1991D7",
+                                    "915E4A52-42F7-4C6B-9DC2-B12F3D481594"
                                   ]
                                 },
                                 "name" : "tapTarget"
                               },
-                              "identifier" : "78D04A71-D6BC-4D9E-B1BE-1C371DDDBEEA",
+                              "identifier" : "A372AD53-93C6-4518-AD36-AF4ECAE99783",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:25444e0e60efb1c127803c5070ca3fa3\/465383_1328638-lq.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "4694626B-2B2E-4E7F-90C7-17487A220F98"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "6742A302-2B44-4D9D-A597-07B7C1E39D04",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "BB17BE2F-8B69-4FCD-BD6F-C77C56D13E90",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "5AFDA5F6-C020-463A-AABA-F65ADD22B821",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция 1",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+
+                                },
+                                "name" : "start"
+                              },
+                              "identifier" : "F7BD71AD-6ABF-4B09-8CF1-86D455F8D547",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:4866b16b1dc6c37c4002c228f8c227c3\/acoustic-guitar_zjrsq7ho.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "4694626B-2B2E-4E7F-90C7-17487A220F98"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "A9045B49-BCCE-483F-8ECF-4F50C129A065",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "E3A34FDD-05A3-4AD0-A1A6-6C25763F56C1",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.49019607901573181,
+                        0.7450980544090271,
+                        0.94901961088180542,
+                        1
+                      ],
+                      "identifier" : "605406AD-51CE-4150-A466-2DBB09BC927C",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция 2",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "4694626B-2B2E-4E7F-90C7-17487A220F98"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "7500935C-ECB6-4191-B178-F672E7B931DB",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:ec658d7fa47578d0123ff3e5eb13be83\/jdl-081816-sfx-whistler-92-cm-11-scr.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "1600A516-B26F-44DD-A045-750CF6212086"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "22C4A6E8-79DB-480C-8CC9-4F453FCFB5B3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "85C15F16-3663-42FD-AF40-5171A6D5C30D",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.30980393290519714,
+                        0.56470590829849243,
+                        0.99215686321258545,
+                        1
+                      ],
+                      "identifier" : "09F31E8C-7452-4CD7-8402-99EA31A6E107",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция 3",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "1600A516-B26F-44DD-A045-750CF6212086"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "C1B081CD-A8EC-49F9-BB4C-6FB2F1C56885",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:53040290a433bb657500e84624ddf698\/e1744ddf350119c.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "CAC6FC29-5D30-4A7B-9711-7D9C66B6D18F"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "FCCA8FF2-74F2-444F-B945-3DFDA37A5FE3",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "C3FAAAB2-1F37-4D97-83D7-C023B166625B",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.56078433990478516,
+                        0.47058823704719543,
+                        0.80392158031463623,
+                        1
+                      ],
+                      "identifier" : "A0799BEA-D005-4433-8999-C3DD05C4EDB9",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция 4",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "CAC6FC29-5D30-4A7B-9711-7D9C66B6D18F"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "613B7D94-973D-4D1E-9666-5AF3560160D3",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 3
+                },
+                {
+                  "__content" : [
+                    {
+                      "accessibility" : {
+                        "__content" : [
+                          {
+                            "isEnabled" : false
+                          }
+                        ],
+                        "__version" : 1
+                      },
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:fbe1ed49a49ca1b833decd07f1806096\/z_uk-truba.mp3",
+                                          "loops" : false,
+                                          "multiplePerformType" : "ignore request",
+                                          "target" : [
+                                            "5F59B76C-F8E8-4521-9BE0-CD11147DF9E8"
+                                          ],
+                                          "volume" : 0.5
+                                        },
+                                        "name" : {
+                                          "type" : "audio"
+                                        }
+                                      },
+                                      "identifier" : "4E9004B3-900B-4B37-A746-4619E5C123D6",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "527F4E29-3385-4CBF-8C59-A91C6D9C81FC",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.64705884456634521,
+                        0.32156863808631897,
+                        0.76470589637756348,
+                        1
+                      ],
+                      "identifier" : "6D1C84C5-C7CB-45C6-AA56-0D2F6D608719",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Реакция 5",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "5F59B76C-F8E8-4521-9BE0-CD11147DF9E8"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "0B91B99B-4C6E-4909-9E4D-342CC254545B",
                               "isEnabled" : true
                             }
                           ],
@@ -102,352 +512,34 @@
               "material" : "concrete",
               "overrides" : {
                 "children" : {
+                  "0EB29898-62FB-4239-A986-0B3917389FC5" : null,
+                  "2A78F713-3966-45D9-BFF9-EA5162E70D44" : null,
+                  "3F5666E1-9963-4B2A-91A9-168F7E0A5D94" : null,
                   "4A213441-135C-450E-8EF8-1A4EAB267C1D" : null,
-                  "5A7A6522-4535-4EE2-8DD7-102D760BEBCE" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "item",
-                          {
-                            "typeName" : "String",
-                            "value" : "Bowling Pin"
-                          }
-                        ],
-                        [
-                          "style",
-                          {
-                            "typeName" : "String",
-                            "value" : "Realistic"
-                          }
-                        ]
-                      ],
-                      "children" : {
-                        "item" : {
-                          "overrides" : {
-                            "factory" : null,
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "BE6A2D18-1CBD-4454-B97D-46195D5CB91B"
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "F2EFFBEE-E26F-41D2-9905-35B8FA3B946D"
-                          }
-                        ],
-                        [
-                          "rigidBody-enabled",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ],
-                        [
-                          "rigidBody-motionType",
-                          {
-                            "typeName" : "REMotionType",
-                            "value" : "dynamic"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0.20169702172279358,
-                        0,
-                        -0.38647410273551941,
-                        1
-                      ]
-                    }
-                  },
+                  "5A7A6522-4535-4EE2-8DD7-102D760BEBCE" : null,
+                  "5AE0C258-E477-4C8C-B062-8F162CC9BD7C" : null,
                   "6DBB1CEC-7290-4917-B9C6-D2547656BFC6" : null,
+                  "7E1AAF86-2564-4123-B61C-7B44429C872F" : null,
                   "7F5F1ADC-E5E4-4EF5-A5B5-FC43B071FFA5" : null,
-                  "10FF19C2-A49E-45B1-9025-52772B7ED4E8" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "item",
-                          {
-                            "typeName" : "String",
-                            "value" : "Bowling Pin"
-                          }
-                        ],
-                        [
-                          "style",
-                          {
-                            "typeName" : "String",
-                            "value" : "Realistic"
-                          }
-                        ]
-                      ],
-                      "children" : {
-                        "item" : {
-                          "overrides" : {
-                            "factory" : null,
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "95E55B27-40DF-4C6D-9BDD-ABE97D8CE900"
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "3D8AC9C4-4F67-4B5B-B2A6-4495D364CE4B"
-                          }
-                        ],
-                        [
-                          "rigidBody-enabled",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ],
-                        [
-                          "rigidBody-motionType",
-                          {
-                            "typeName" : "REMotionType",
-                            "value" : "dynamic"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0.36997434496879578,
-                        0,
-                        -0.53407371044158936,
-                        1
-                      ]
-                    }
-                  },
-                  "11C46E57-94DF-4371-AC7C-0B42E4C9B8A6" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "item",
-                          {
-                            "typeName" : "String",
-                            "value" : "Bowling Pin"
-                          }
-                        ],
-                        [
-                          "style",
-                          {
-                            "typeName" : "String",
-                            "value" : "Realistic"
-                          }
-                        ]
-                      ],
-                      "children" : {
-                        "item" : {
-                          "overrides" : {
-                            "factory" : null,
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "F3C1EBDC-026E-4D8F-AC6B-7955FB3383C6"
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "F61C917A-8BE3-4B20-8719-644069056214"
-                          }
-                        ],
-                        [
-                          "rigidBody-enabled",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ],
-                        [
-                          "rigidBody-motionType",
-                          {
-                            "typeName" : "REMotionType",
-                            "value" : "dynamic"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        -0.12892316281795502,
-                        0,
-                        0.24209386110305786,
-                        1
-                      ]
-                    }
-                  },
+                  "8B5E9C3B-5C1E-46E9-B664-002C7606E416" : null,
+                  "9EA72CA7-457E-4663-89C7-142034003C15" : null,
+                  "10FF19C2-A49E-45B1-9025-52772B7ED4E8" : null,
+                  "11C46E57-94DF-4371-AC7C-0B42E4C9B8A6" : null,
                   "20C96E6C-F838-46BE-AF0B-F8EB3C9D8FAC" : null,
                   "044E9050-A086-41FB-9723-3DDB310DB253" : null,
-                  "59C0A177-BA1B-484D-9115-478F376D552E" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "item",
-                          {
-                            "typeName" : "String",
-                            "value" : "Bowling Pin"
-                          }
-                        ],
-                        [
-                          "style",
-                          {
-                            "typeName" : "String",
-                            "value" : "Realistic"
-                          }
-                        ]
-                      ],
-                      "children" : {
-                        "item" : {
-                          "overrides" : {
-                            "factory" : null,
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "CAE836A6-DCB1-486B-A337-87CDCEE5690E"
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "11DDE038-C3E2-4943-B72D-325C40227BF4"
-                          }
-                        ],
-                        [
-                          "rigidBody-enabled",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ],
-                        [
-                          "rigidBody-motionType",
-                          {
-                            "typeName" : "REMotionType",
-                            "value" : "dynamic"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        -0.12892314791679382,
-                        -1.3969838619232178e-08,
-                        -0.26399171352386475,
-                        1
-                      ]
-                    }
-                  },
+                  "53E615AB-8674-4A3F-9304-3A76CA551B63" : null,
+                  "59C0A177-BA1B-484D-9115-478F376D552E" : null,
                   "60EFB399-24D9-4BF4-BBD0-4FCCFC59FA0F" : null,
-                  "65E58FE8-FEE6-440D-AE80-C35921318B87" : {
+                  "60F2CDF0-6332-45B7-B376-F457AD2F7B22" : null,
+                  "62C05A01-D16A-4121-BECE-31678AF0A0DE" : null,
+                  "64CACBCF-6E0B-41F8-82FA-BB75335AD28C" : {
                     "overrides" : {
                       "arguments" : [
                         [
                           "item",
                           {
                             "typeName" : "String",
-                            "value" : "Bowling Pin"
+                            "value" : "Bar Table"
                           }
                         ],
                         [
@@ -467,7 +559,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "5E402B14-198C-4CC5-AA16-8DD611AD5A6B"
+                                  "value" : "C592B29F-670F-4E08-84C5-8FEFDA917F2D"
                                 }
                               ]
                             ]
@@ -475,7 +567,7 @@
                         }
                       },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
+                        "identifier" : "com.apple.rc.af.BarTable.ce0c3f5f-5a14-4598-ba93-a9e01d202d43",
                         "version" : "1.0"
                       },
                       "runtimeAttributes" : [
@@ -483,7 +575,7 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "DFAE7AA8-6722-4237-B8A5-C0A2EC6E0FA4"
+                            "value" : "5EC98BCD-B50C-4B27-96B2-00E6FF3F18DF"
                           }
                         ],
                         [
@@ -504,33 +596,113 @@
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        0.69988048076629639,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.69988048076629639,
                         0,
                         0,
                         0,
                         0,
-                        1,
+                        0.69988048076629639,
                         0,
-                        0.56506925821304321,
+                        0.34676748514175415,
                         0,
-                        -0.21663212776184082,
+                        -0.58819782733917236,
                         1
                       ]
                     }
                   },
-                  "0353B2EB-F2CF-482F-9029-374BAF2B6D06" : {
+                  "65E58FE8-FEE6-440D-AE80-C35921318B87" : null,
+                  "72BC130D-59C9-4855-9E2A-06FCE11378CB" : {
                     "overrides" : {
                       "arguments" : [
                         [
                           "item",
                           {
                             "typeName" : "String",
-                            "value" : "Bowling Pin"
+                            "value" : "Tied Eighth Note"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Stylized"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "3A929704-244D-45CB-847F-0E3D115B4A4F"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.TiedEighthNote.15ae8f60-2fba-49b0-b023-681a3af6a7d4",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "45ACF7DE-D88E-48F3-8A11-A56426F1E621"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0.59546053409576416,
+                        1.1199743747711182,
+                        -0.65457612276077271,
+                        1
+                      ]
+                    }
+                  },
+                  "93B9B50B-C9C5-4949-976C-33EC54C4B47E" : null,
+                  "98D81CAB-D336-43A1-85FA-0B08534E768D" : null,
+                  "0353B2EB-F2CF-482F-9029-374BAF2B6D06" : null,
+                  "536FFE78-4EAD-4CEF-9211-E95726F1D1F4" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Acoustic Guitar"
                           }
                         ],
                         [
@@ -550,7 +722,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "8DBD9616-DD15-4C8F-AE3D-EF67CAA0598B"
+                                  "value" : "909ECD45-F3E5-4089-8839-15272CBE9D18"
                                 }
                               ]
                             ]
@@ -558,7 +730,7 @@
                         }
                       },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
+                        "identifier" : "com.apple.rc.af.AcousticGuitar.6c765350-0bfc-46d1-8ba5-7c26bf588bd6",
                         "version" : "1.0"
                       },
                       "runtimeAttributes" : [
@@ -566,7 +738,7 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "48C6E649-CB95-40A3-B6FF-29919EAB6406"
+                            "value" : "4694626B-2B2E-4E7F-90C7-17487A220F98"
                           }
                         ],
                         [
@@ -587,118 +759,38 @@
                     },
                     "transform" : {
                       "matrix" : [
-                        1,
+                        0.86602556705474854,
                         0,
+                        -0.49999970197677612,
                         0,
+                        -0.35355320572853088,
+                        0.70710670948028564,
+                        -0.61237263679504395,
                         0,
+                        0.35355314612388611,
+                        0.70710676908493042,
+                        0.61237245798110962,
                         0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        -0.012440621852874756,
-                        0,
-                        0.98747313022613525,
+                        0.96859627962112427,
+                        0.36477792263031006,
+                        0.162454754114151,
                         1
                       ]
                     }
                   },
-                  "608B8E76-1CDD-48E6-AB49-AF6643BD1396" : {
-                    "overrides" : {
-                      "arguments" : [
-                        [
-                          "item",
-                          {
-                            "typeName" : "String",
-                            "value" : "Bowling Pin"
-                          }
-                        ],
-                        [
-                          "style",
-                          {
-                            "typeName" : "String",
-                            "value" : "Realistic"
-                          }
-                        ]
-                      ],
-                      "children" : {
-                        "item" : {
-                          "overrides" : {
-                            "factory" : null,
-                            "runtimeAttributes" : [
-                              [
-                                "RuntimeIdentifier",
-                                {
-                                  "typeName" : "UUID",
-                                  "value" : "8303606B-5BEF-4D75-AA3A-875001653DB2"
-                                }
-                              ]
-                            ]
-                          }
-                        }
-                      },
-                      "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
-                        "version" : "1.0"
-                      },
-                      "runtimeAttributes" : [
-                        [
-                          "RuntimeIdentifier",
-                          {
-                            "typeName" : "UUID",
-                            "value" : "675B8F4F-C25F-4C9A-81BB-CB4E99CBF745"
-                          }
-                        ],
-                        [
-                          "rigidBody-enabled",
-                          {
-                            "typeName" : "Bool",
-                            "value" : true
-                          }
-                        ],
-                        [
-                          "rigidBody-motionType",
-                          {
-                            "typeName" : "REMotionType",
-                            "value" : "dynamic"
-                          }
-                        ]
-                      ]
-                    },
-                    "transform" : {
-                      "matrix" : [
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0,
-                        0,
-                        0,
-                        1,
-                        0,
-                        0.69171708822250366,
-                        0,
-                        0.17990577220916748,
-                        1
-                      ]
-                    }
-                  },
+                  "608B8E76-1CDD-48E6-AB49-AF6643BD1396" : null,
                   "632E476F-1E55-4E30-9723-1C51DD2E8B89" : null,
-                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
-                  "CB00C262-BBF6-4F80-BBDB-F4CDC4C125E3" : {
+                  "2723CBBF-6491-41E8-A318-EEE24F6DA97B" : null,
+                  "4203BA05-FA68-4C4A-9900-CB749A3A2EC1" : null,
+                  "4643FCA1-D35C-4AC0-A134-04F6AE68156C" : null,
+                  "A2D1165B-FC68-4A74-910D-0C94E73F12B3" : {
                     "overrides" : {
                       "arguments" : [
                         [
                           "item",
                           {
                             "typeName" : "String",
-                            "value" : "Bowling Ball"
+                            "value" : "Drum Kit"
                           }
                         ],
                         [
@@ -718,7 +810,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "057FB3C5-DC6C-4DCF-A156-3818FCC16009"
+                                  "value" : "D7ACF634-C4DF-41F4-B07E-7B897D349F47"
                                 }
                               ]
                             ]
@@ -726,7 +818,7 @@
                         }
                       },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingBall.711f2c3d-dcea-4ab2-a977-d61b15400efb",
+                        "identifier" : "com.apple.rc.af.DrumKit.34073786-6811-4fe2-ad62-923f6d7c7012",
                         "version" : "1.0"
                       },
                       "runtimeAttributes" : [
@@ -734,7 +826,7 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "0B8BC4D3-AD67-4325-A409-D473A990E8DB"
+                            "value" : "915E4A52-42F7-4C6B-9DC2-B12F3D481594"
                           }
                         ],
                         [
@@ -767,22 +859,23 @@
                         0,
                         1,
                         0,
-                        0.033279776573181152,
-                        0.10494722425937653,
-                        2.332695484161377,
+                        0.18795490264892578,
+                        0.77519822120666504,
+                        -0.46544128656387329,
                         1
                       ]
                     }
                   },
-                  "DEDBE9B3-D2F0-4CEA-84D6-7B02F326EEAA" : null,
-                  "E383696C-927D-4BA6-9E82-F53A2F0C55E6" : {
+                  "B3B2A8D6-A640-4BC5-B12E-B56BBF5C1262" : null,
+                  "B91C7CA3-4AB1-4253-9A84-07383168A8A8" : null,
+                  "B634A723-1493-4DFC-9D8E-CEF047A782B2" : {
                     "overrides" : {
                       "arguments" : [
                         [
                           "item",
                           {
                             "typeName" : "String",
-                            "value" : "Bowling Pin"
+                            "value" : "Trumpet"
                           }
                         ],
                         [
@@ -802,7 +895,7 @@
                                 "RuntimeIdentifier",
                                 {
                                   "typeName" : "UUID",
-                                  "value" : "7BE31E9F-4085-40CC-B3A0-AAD4222BB449"
+                                  "value" : "55C89B90-9143-4119-A1CA-9E0F5E948C6C"
                                 }
                               ]
                             ]
@@ -810,7 +903,7 @@
                         }
                       },
                       "factory" : {
-                        "identifier" : "com.apple.rc.af.BowlingPin.d1ee6fbb-77ae-47d5-8d41-40fd7cd55f39",
+                        "identifier" : "com.apple.rc.af.Trumpet.b8df11c6-b6da-409f-a930-300db6934eda",
                         "version" : "1.0"
                       },
                       "runtimeAttributes" : [
@@ -818,7 +911,7 @@
                           "RuntimeIdentifier",
                           {
                             "typeName" : "UUID",
-                            "value" : "26DFD0FF-1491-4680-B9D2-972A80BBD9F8"
+                            "value" : "5F59B76C-F8E8-4521-9BE0-CD11147DF9E8"
                           }
                         ],
                         [
@@ -851,13 +944,265 @@
                         0,
                         1,
                         0,
-                        0.20169702172279358,
-                        0,
-                        0.1196114644408226,
+                        1.1936074495315552,
+                        0.11938536167144775,
+                        -0.70227152109146118,
                         1
                       ]
                     }
-                  }
+                  },
+                  "C4CA1FCB-C9FD-4FFF-A094-1956BFD798A9" : null,
+                  "CB00C262-BBF6-4F80-BBDB-F4CDC4C125E3" : null,
+                  "CEA571CA-7B33-47B4-8094-7468A46767BB" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Triangle"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "DDEA86B9-E1F8-4B0F-9D5E-7EBC5C35BE3F"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Triangle.9453b173-6456-4f81-9203-30a3411d0c27",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "CAC6FC29-5D30-4A7B-9711-7D9C66B6D18F"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0.60172802209854126,
+                        1.0058165788650513,
+                        -0.65500247478485107,
+                        1
+                      ]
+                    }
+                  },
+                  "DE624360-B00B-48C4-BDFC-1E88AE8B9E6F" : null,
+                  "DEDBE9B3-D2F0-4CEA-84D6-7B02F326EEAA" : null,
+                  "E3B3B57E-747A-470B-8F8F-A6FA98390295" : null,
+                  "E90C3B41-0FEA-4708-8783-37071666CE40" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Turntable"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "CAA25AA7-C3BF-45F2-BCFE-125264228807"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Turntable.a8096f0b-fc93-49f3-b5fd-9520b0f517a3",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "1600A516-B26F-44DD-A045-750CF6212086"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0.84096544981002808,
+                        0,
+                        -0.75865054130554199,
+                        1
+                      ]
+                    }
+                  },
+                  "E034149B-2983-4B8A-AA6D-6D1887FD76C4" : {
+                    "overrides" : {
+                      "arguments" : [
+                        [
+                          "item",
+                          {
+                            "typeName" : "String",
+                            "value" : "Tambourine"
+                          }
+                        ],
+                        [
+                          "style",
+                          {
+                            "typeName" : "String",
+                            "value" : "Realistic"
+                          }
+                        ]
+                      ],
+                      "children" : {
+                        "item" : {
+                          "overrides" : {
+                            "factory" : null,
+                            "runtimeAttributes" : [
+                              [
+                                "RuntimeIdentifier",
+                                {
+                                  "typeName" : "UUID",
+                                  "value" : "21AD2201-8974-4D89-AF77-F17771835242"
+                                }
+                              ]
+                            ]
+                          }
+                        }
+                      },
+                      "factory" : {
+                        "identifier" : "com.apple.rc.af.Tambourine.892515f3-3abb-42a7-b715-e5a60b1585d6",
+                        "version" : "1.0"
+                      },
+                      "runtimeAttributes" : [
+                        [
+                          "RuntimeIdentifier",
+                          {
+                            "typeName" : "UUID",
+                            "value" : "BB6E7B9C-8077-4C97-85C5-AA567B1991D7"
+                          }
+                        ],
+                        [
+                          "rigidBody-enabled",
+                          {
+                            "typeName" : "Bool",
+                            "value" : true
+                          }
+                        ],
+                        [
+                          "rigidBody-motionType",
+                          {
+                            "typeName" : "REMotionType",
+                            "value" : "dynamic"
+                          }
+                        ]
+                      ]
+                    },
+                    "transform" : {
+                      "matrix" : [
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0.36231279373168945,
+                        1.1073184013366699,
+                        -0.45266902446746826,
+                        1
+                      ]
+                    }
+                  },
+                  "E383696C-927D-4BA6-9E82-F53A2F0C55E6" : null,
+                  "ECB7C9E1-1D99-48B1-9F54-BA4588D8C28B" : null,
+                  "F201082D-FE10-4508-A32F-63DB9E8EC724" : null,
+                  "FC028CBA-35B9-4B20-941A-B65111DC376A" : null,
+                  "FDE55FA0-3106-470F-A823-7D563C92EB11" : null
                 },
                 "factory" : null,
                 "runtimeAttributes" : [
@@ -874,21 +1219,21 @@
               "title" : "Scene3",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.38498106598854065,
-                  -5.3364885843620868e-08,
-                  -0.9229244589805603,
+                  0.68437504768371582,
+                  -1.0435783792672737e-08,
+                  -0.72913020849227905,
                   0,
-                  -0.36132216453552246,
-                  0.92017942667007446,
-                  -0.15071900188922882,
+                  -0.35043653845787048,
+                  0.87692707777023315,
+                  -0.32892709970474243,
                   0,
-                  0.84925615787506104,
-                  0.39149698615074158,
-                  0.35425156354904175,
+                  0.63939374685287476,
+                  0.48062369227409363,
+                  0.6001470685005188,
                   0,
-                  5.8572168350219727,
-                  3.2311666011810303,
-                  4.2826123237609863,
+                  2.4933838844299316,
+                  1.5431888103485107,
+                  0.43280482292175293,
                   1
                 ],
                 "sceneTransform" : [

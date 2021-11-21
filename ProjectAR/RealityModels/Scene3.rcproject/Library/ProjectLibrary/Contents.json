@@ -1,3 +1,32 @@
 [
-
+  {
+    "libraryIdentifier" : "715fb0cb4addc2052fd75e9ba83e345e",
+    "format" : "audio",
+    "displayName" : "barabannaya-drob-otlichnaya-shutka.mp3"
+  },
+  {
+    "libraryIdentifier" : "25444e0e60efb1c127803c5070ca3fa3",
+    "format" : "audio",
+    "displayName" : "465383_1328638-lq.mp3"
+  },
+  {
+    "libraryIdentifier" : "4866b16b1dc6c37c4002c228f8c227c3",
+    "format" : "audio",
+    "displayName" : "acoustic-guitar_zjrsq7ho.mp3"
+  },
+  {
+    "libraryIdentifier" : "ec658d7fa47578d0123ff3e5eb13be83",
+    "format" : "audio",
+    "displayName" : "jdl-081816-sfx-whistler-92-cm-11-scr.mp3"
+  },
+  {
+    "libraryIdentifier" : "53040290a433bb657500e84624ddf698",
+    "format" : "audio",
+    "displayName" : "e1744ddf350119c.mp3"
+  },
+  {
+    "libraryIdentifier" : "fbe1ed49a49ca1b833decd07f1806096",
+    "format" : "audio",
+    "displayName" : "z_uk-truba.mp3"
+  }
 ]
