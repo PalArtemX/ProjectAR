@@ -15,17 +15,28 @@ struct InfoView: View {
             
             VStack {
                 // MARK: - Header
-                HStack {
-                    Text("AR")
-                        .fontWeight(.light)
-                        .foregroundColor(.themeColor.red)
+                HStack(spacing: 0) {
+                    Text("In")
+                        .fontWeight(.regular)
+                        .foregroundColor(.accentColor)
                     
-                    Text("Info")
-                        .foregroundColor(.themeColor.red)
-                        .fontWeight(.black)
+                    Text("fo")
+                        .foregroundColor(.accentColor)
+                        .fontWeight(.bold)
                     Spacer()
                 }
-                
+                Spacer()
+                // MARK: - Info Message
+                VStack {
+                    Text("Hello, content and functionality will be added as soon as they are ready.")
+                        .multilineTextAlignment(.center)
+                        .padding(.vertical)
+                    Text("For the application to work, you need access to the camera, allow access to the camera. To display AR elements, hover over a horizontal surface and move the camera slightly in different directions.")
+                        .multilineTextAlignment(.center)
+                        .padding(.vertical)
+                }
+                .foregroundColor(.accentColor)
+                .font(.subheadline)
                 Spacer()
                 
                 // MARK: - Footer
@@ -60,5 +71,6 @@ struct InfoView: View {
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
         InfoView()
+.previewInterfaceOrientation(.portrait)
     }
 }
